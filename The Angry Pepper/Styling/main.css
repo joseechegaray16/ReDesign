@@ -1,0 +1,124 @@
+body {
+  background-color: lightblue;
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: 0px auto;
+}
+
+section{
+  padding: 15px;
+}
+
+section p, .lineup {
+  font-size: 18px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+}  
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: brown;
+  color: white;
+}
+
+.fa:hover {
+  color: gold;
+}
+
+.info {
+  box-shadow: inset 0px 3px 15px 0px;
+  /*box-shadow: 5px 3px 13px 5px;*/
+  text-align: center;
+  margin-top: 15px;
+  padding: 5px 5px;
+}
+
+h2, h4, p{
+  text-align: center;
+}
+
+.lineup {
+display: inline-flex;
+text-align: center;
+list-style-position: inside;
+}
+
+hr {
+  width: 15em;
+}
+
+table {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.in-store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: inline-block;
+  background-color:white;
+  box-shadow:0 0 40px 4px rgba(0,0,0,0.1);
+  border-radius:5px;
+  overflow:hidden;
+  width:350px;
+  height: 350px;;
+  transition:.4s;
+}
+.card:hover {
+  transform:scale(1.01);
+}
+.card-image {
+  max-width:100%;
+}
+.card-footer {
+  padding:20px;
+}
+.card-title {
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+.card-description {
+  font-size:14px;
+  color:#4e4e4e;
+  margin-bottom:15px;
+}
+
+@media screen and (min-width: 500px) {
+  .gallery {
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .lineup {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.social{
+    position: absolute;
+    right: 30px;
+    top: 7px;
+  }
+}
